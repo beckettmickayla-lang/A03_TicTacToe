@@ -77,7 +77,7 @@ public class TicTacToe {
         System.out.println("\n🏁 Thanks for playing Tic-Tac-Toe!");
         in.close();
     }
-    // Helper Methods
+
     // Clears the Scoreboard
     private static void clearBoard() {
         for (int row = 0; row < ROWS; row++) {
